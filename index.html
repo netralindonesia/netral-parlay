@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NETRAL PARLAY</title>
+<style>
+body{background:#101820;color:white;font-family:Arial;text-align:center;margin:0}
+header{background:#00a86b;padding:25px}
+h1{margin:0}
+main{padding:20px}
+.card{background:#202d38;padding:20px;border-radius:15px;margin:15px 0}
+button{background:#00c853;color:white;border:0;padding:14px;border-radius:9px;font-weight:bold}
+small{color:#aaa}
+</style>
+</head>
+<body>
+<header>
+<h1>NETRAL PARLAY</h1>
+<p>Prediksi Bola • Poin Virtual</p>
+</header>
+<main>
+<h2>Selamat Datang!</h2>
+<p>Website prediksi sepak bola gratis.</p>
+<div class="card">
+<h3>⚽ Prediksi Pertandingan</h3>
+<p>Tim A VS Tim B</p>
+<button onclick="pilih('Tim A')">Tim A</button>
+<button onclick="pilih('Seri')">Seri</button>
+<button onclick="pilih('Tim B')">Tim B</button>
+<p id="hasil">Silakan pilih prediksi</p>
+</div>
+<div class="card">
+<h3>ADMIN: NETRAL INDONESIA</h3>
+<p>Mode Demo</p>
+<small>Tanpa deposit dan tanpa uang asli.</small>
+</div>
+</main>
+<script>
+function pilih(tim){
+document.getElementById('hasil').innerText='Prediksi kamu: '+tim;
+}
+</script>
+</body>
+  </html>
+  
